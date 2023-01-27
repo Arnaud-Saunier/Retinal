@@ -813,7 +813,7 @@ class LoginApp(MDApp):
                 self.strng.get_screen('multiscreen').info_label_multi.text = f"{dicts['ID0']}"
                 self.strng.get_screen('multiscreen').info_label_multi2.text = f"{dicts['ID1']}"
                 self.strng.get_screen('multiscreen').info_label_multi3.text = f"{dicts['ID2']}"
-                self.strng.get_screen('multiscreen').info_label_multi4.text = f"{dicts['ID2']}"
+                self.strng.get_screen('multiscreen').info_label_multi4.text = f"{dicts['ID3']}"
 
 
         else:
