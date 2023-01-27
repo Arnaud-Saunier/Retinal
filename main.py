@@ -493,7 +493,7 @@ ScreenManager:
         
     Button:
         id:_ti_cfg_test_ia_detect_multi
-        text:'Multi détections sur image'
+        text:'Multi prédictions sur images'
         size_hint : None,None
         size : 605,40
         pos_hint:{'center_y': 0.02,'center_x':0.518}
@@ -638,7 +638,7 @@ ScreenManager:
         
     Button:
         id:_ti_cfg_test_ia__detect
-        text:'Détections sur image'
+        text:'Prédiction sur image'
         size_hint : None,None
         size : 600,40
         pos_hint:{'center_y': 0.10,'center_x':0.515}
@@ -813,7 +813,7 @@ class LoginApp(MDApp):
                 self.strng.get_screen('multiscreen').info_label_multi.text = f"{dicts['ID0']}"
                 self.strng.get_screen('multiscreen').info_label_multi2.text = f"{dicts['ID1']}"
                 self.strng.get_screen('multiscreen').info_label_multi3.text = f"{dicts['ID2']}"
-                self.strng.get_screen('multiscreen').info_label_multi4.text = f"{dicts['ID2']}"
+                self.strng.get_screen('multiscreen').info_label_multi4.text = f"{dicts['ID3']}"
 
 
         else:
